@@ -1,1 +1,51 @@
+
+
 WEB: https://www.youtube.com/watch?v=7xt6GhDd7ww
+
+Paso para usar el GIT
+GIT BUSH: Abre la console para escibir los comandos
+COMANDOS
+
+GIT INIT  : Inicializar ( solo una vez )
+GIT STATUS: Muestra la informacion del Subdirectorio
+GIT ADD <nombre del archivo> : >Agregar un archivo al contenedor
+GIT ADD . : Agregar todos los archivos
+GIT LOG: VER log
+GIT checkout -- <nombre archivo> : vuelve el archivo a la version guardada en el contenedor
+GIT diff -- <nombre archivo> :Muestara la diferencia entre el archivo y el guardado en el contenedor
+GIT COMMIT -- Comitea los cambios antes aparece el archivo para escribir un mensaje
+GIT COMMIT -m <mensaje>-- Comitea los cambios permitiendo escribir el mensaje directamente, no abre el archivo
+
+Configurarion
+GIT config --global user.email "mweihmuller72@hotmail.com" : configurar direccion mail
+GIT config --global user.name "Weihmuller_Maximiliano"     : configurar nombre de usuario
+
+GITHUB
+git remote add <nombreRepositorio> <direccion url del repositorio>: Crear el repositorio
+git push -u <repositorio GIT HUB> <rama> : Subir la informacion
+git clone <URL>: Clonar nuestro Proyecto
+
+PROYECYO  GITHUB
+Ename: introGit_Github
+URL: https://github.com/mjw2041/IntroGITGITHUB.git
+
+echo "# IntroGITGITHUB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mjw2041/IntroGITGITHUB.git
+git push -u origin master
+
+Repositorio GIT HUB
+echo "# CHAT-CoderNauta-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mjw2041/CHAT-CoderNauta-.git
+git push -u origin main
+
+
+
+

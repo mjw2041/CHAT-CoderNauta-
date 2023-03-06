@@ -1,0 +1,10 @@
+WEB: https://www.youtube.com/watch?v=7xt6GhDd7ww
+
+Repositorio GIT HUB
+echo "# CHAT-CoderNauta-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mjw2041/CHAT-CoderNauta-.git
+git push -u origin main
